@@ -1,0 +1,70 @@
+body{
+    font-family: cursive;
+}
+.logo {
+   
+    display: inline-block;
+    position: absolute;
+    top:20px;
+    left:15px;
+    
+
+}
+.btn{
+    display: inline-block;
+    width: 200px;
+    float: right;
+   
+}
+.btn1{
+    position: relative;
+    top: 11px;
+    padding: 2px 2px;
+    margin: 2px 2px;
+    
+        
+}
+.btn1 img{
+    width: 30px;
+   
+}
+.btn2{
+    padding: 10px 19px;
+    margin: 2px 36px;
+    color: white;
+    background-color:  rgb(153, 56, 244);
+    border-radius: 13px;
+    border: none;
+    font-family: cursive;
+    cursor: pointer;
+}
+.logo a{
+    color: rgb(153, 56, 244);
+    font-weight:900;
+    font-size: 20px;
+    text-decoration: none;
+
+}
+.menu{
+   
+    display:inline-block;
+    width:800px;
+   float: right;
+}
+.menu ul li {
+    display: inline-block;
+    padding: 0px 11px;
+    margin: 2px 6px;
+}
+.menu ul li a{
+    text-decoration: none;
+    color: black;
+    font-weight:bold;
+
+}
+.menu ul li a:hover,.menu ul li a.active{
+    text-decoration:underline;
+   
+    text-decoration-color:rgb(153, 56, 244);
+    color: rgb(23, 20, 20);
+}
